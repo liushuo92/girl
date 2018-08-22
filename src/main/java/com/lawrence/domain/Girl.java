@@ -14,7 +14,7 @@ import javax.validation.constraints.Min;
  * 2018/8/21   2:51
  */
 @Entity
-//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Proxy(lazy = false)
 public class Girl {
 
